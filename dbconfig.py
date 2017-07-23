@@ -3,3 +3,5 @@
 
 db_user = 'root'
 db_password = 'root'
+
+test = True
