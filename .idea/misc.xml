@@ -68,4 +68,5 @@
       <textMaps />
     </LinkMapSettings>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 virtualenv at ~/.virtualenvs/flask" project-jdk-type="Python SDK" />
 </project>

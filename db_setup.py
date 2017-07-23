@@ -4,6 +4,7 @@
 import pymysql
 import dbconfig
 connection = pymysql.connect(host='192.168.1.20',
+                             port=3306,
                              user=dbconfig.db_user,
                              passwd=dbconfig.db_password)
 try:
@@ -18,7 +19,7 @@ try:
         date DATETIME,
         category VARCHAR (50),
         description VARCHAR (1000),
-        update_at TIMESTAMP ,
+        update_at TIMESTAMP,
         PRIMARY KEY(id)
         )
         """
@@ -26,4 +27,3 @@ try:
         connection.commit()
 finally:
     connection.close()
-;
